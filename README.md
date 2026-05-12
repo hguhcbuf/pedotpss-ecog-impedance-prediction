@@ -14,3 +14,11 @@ The pipeline detects line boundaries from electrode images, calculates image-der
   Schematic overview of the fabrication process and image-based impedance prediction workflow for high-density PEDOT:PSS ECoG electrodes.
 </p>
 
+## Usage Conditions
+
+This prediction pipeline was developed for printed PEDOT:PSS electrode patterns under the following conditions:
+
+1. The ink material should be PEDOT:PSS with a concentration of **5 wt% or lower**.
+2. The input image should be an optical microscope image captured at **200× magnification**.
+
+The prediction accuracy may decrease if the ink formulation, concentration, imaging magnification, or image quality differs significantly from these conditions.
